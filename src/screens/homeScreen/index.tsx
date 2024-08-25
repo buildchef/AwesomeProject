@@ -7,7 +7,7 @@ const HomeScreen: React.FC = () => {
     const navigation = useNavigation();
     return(
         <View style={styles.fundo}>
-            <Text style={styles.titulo}>Bem vindo ao aplicativo mais troios que existe.</Text>
+            <Text style={styles.titulo}>Bem vindo!</Text>
 
             <TouchableOpacity 
                 // @ts-ignore
